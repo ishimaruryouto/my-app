@@ -1,0 +1,20 @@
+@mixin head {
+    font-size: 4.8rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+@mixin wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 16px;
+}
+
+@mixin link_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 32px;
+    column-gap: 80px;
+    font-size: 2.4rem;
+    padding-left: 200px;
+}
