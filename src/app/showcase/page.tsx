@@ -9,7 +9,7 @@ export default function All() {
             <h1 className={styles.head}>Showcase</h1>
             <div className={styles.wrap}>
                 <div className={styles.link_block}>
-                    <Link href="#">Button</Link>
+                    <Link href="/showcase/button">Button</Link>
                     <Link href="#">Input</Link>
                     <Link href="#">Tooltip</Link>
                     <Link href="#">Sheet</Link>

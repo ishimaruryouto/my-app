@@ -1,0 +1,101 @@
+@use "@/styles/mixin" as *;
+
+.wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
+
+.head {
+    font-size: clamp(24px, 3vw, 32px);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+
+.cardHead {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.preview {
+    height: 200px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 16px;
+
+    li {
+        margin: 15px 0;
+    }
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.nomal_btn {
+    font-size: 1.4rem;
+    border: 1px solid #000;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.link_btn {
+    font-size: 1.4rem;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration-line: underline;
+    }
+}
+
+.rounded_btn {
+    background: #fff;
+    padding: 10px 12px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.btn {
+    font-size: 1.4rem;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #000;
+    transition: .4s;
+    cursor: pointer;
+
+    &:hover {
+        color: #fff;
+        border: 1px solid #fff;
+        background: #000;
+    }
+}
+
+
+
+.footerNav {
+    margin-top: 12px;
+    font-size: 14px;
+}

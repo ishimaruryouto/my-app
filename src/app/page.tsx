@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles.hero}>
         <div className={styles.inner}>
           <h1 className={styles.title}>UI Components Website</h1>
-          <Link href={"/showcase/all"} className={styles.cta}>
+          <Link href={"/showcase"} className={styles.cta}>
             Let’s check
           </Link>
         </div>
