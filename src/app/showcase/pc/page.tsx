@@ -7,7 +7,7 @@ export default function PC() {
             <h1 className={styles.head}>Showcase</h1>
             <div className={styles.wrap}>
                 <div className={styles.link_block}>
-                    <Link href="#">Navigation Menu</Link>
+                    <Link href="/showcase/navigation">Navigation Menu</Link>
                     <Link href="#">Table</Link>
                     <Link href="#">Tooltip</Link>
                 </div>

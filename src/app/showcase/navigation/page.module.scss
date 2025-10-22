@@ -1,0 +1,69 @@
+@use "@/styles/mixin" as *;
+
+.wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
+
+.head {
+    font-size: clamp(24px, 3vw, 32px);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+        display: flex;
+        gap: 48px;
+
+        li {
+            a {
+                color: #111;
+                font-size: 1.6rem;
+                transition: color 0.25s ease;
+
+                &:hover {
+                    color: #888;
+                }
+            }
+        }
+    }
+}
+
+.cardHead {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.preview {
+    height: 200px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 16px;
+
+    li {
+        margin: 15px 0;
+    }
+}
+
+.footerNav {
+    margin-top: 12px;
+    font-size: 14px;
+}

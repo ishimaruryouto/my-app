@@ -15,7 +15,7 @@ export default function All() {
                     <Link href="#">Sheet</Link>
                     <Link href="#">Toast</Link>
                     <Link href="#">Dialog / Modal</Link>
-                    <Link href="#">Navigation Menu</Link>
+                    <Link href="/showcase/navigation">Navigation Menu</Link>
                     <Link href="#">Table</Link>
                     <Link href="#">Tabs</Link>
                 </div>
