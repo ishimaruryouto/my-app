@@ -1,0 +1,177 @@
+@use "@/styles/mixin" as *;
+
+.wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
+
+.head {
+    font-size: clamp(24px, 3vw, 32px);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.nomal_btn {
+    font-size: 1.4rem;
+    border: 1px solid #000;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.cardHead {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.preview {
+    height: 200px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 16px;
+
+    li {
+        margin: 15px 0;
+    }
+}
+
+.footerNav {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .55);
+    animation: fadeIn .18s ease-out;
+}
+
+.sheet {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100dvh;
+    width: min(420px, 90vw);
+    background: #fff;
+    box-shadow: -8px 0 24px rgba(0, 0, 0, .15);
+    transform: translateX(100%);
+    transition: transform .22s ease-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.open {
+    transform: translateX(0);
+}
+
+
+.sheetHeader {
+    position: relative;
+    padding: 24px 24px 8px;
+
+    h2 {
+        font-size: 22px;
+        font-weight: 800;
+        margin: 0 32px 6px 0;
+    }
+}
+
+.iconClose {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.desc {
+    color: #444;
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 0 24px 8px;
+}
+
+
+.form {
+    padding: 8px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 600;
+    display: grid;
+    gap: 8px;
+}
+
+.input {
+    height: 40px;
+    padding: 0 12px;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+}
+
+.input:focus {
+    border-color: #111;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, .08);
+}
+
+
+.actions {
+    margin-top: 8px;
+    display: grid;
+    gap: 12px;
+}
+
+.primary {
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+}
+
+.ghost {
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    font-weight: 600;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

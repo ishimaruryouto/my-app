@@ -12,7 +12,7 @@ export default function All() {
                     <Link href="/showcase/button">Button</Link>
                     <Link href="#">Input</Link>
                     <Link href="#">Tooltip</Link>
-                    <Link href="#">Sheet</Link>
+                    <Link href="/showcase/sheet">Sheet</Link>
                     <Link href="#">Toast</Link>
                     <Link href="#">Dialog / Modal</Link>
                     <Link href="/showcase/navigation">Navigation Menu</Link>

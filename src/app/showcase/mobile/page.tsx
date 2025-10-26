@@ -7,7 +7,7 @@ export default function PC() {
             <h1 className={styles.head}>Showcase</h1>
             <div className={styles.wrap}>
                 <div className={styles.link_block}>
-                    <Link href="#">Sheet</Link>
+                    <Link href="/showcase/sheet">Sheet</Link>
                     <Link href="#">Tabs</Link>
                     <Link href="#">Toast</Link>
                 </div>
